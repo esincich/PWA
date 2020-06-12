@@ -1,0 +1,21 @@
+<h1>Pelis!!</h1>
+<ul>
+<% movies.forEach(function(movie){ %>
+
+  <li><%= movie.id %> - <%= movie.title %></li>   
+
+<%   })    %>
+</ul>
+
+
+
+<h2>Actoreeees!!</h2>
+<ul>
+<% actores.forEach(function(actor){ %>
+
+  <li><%= actor.nombre %></li>   
+  <li><%= actor.id %></li>   
+
+<%   })    %>
+</ul>
+
