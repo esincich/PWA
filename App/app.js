@@ -50,7 +50,7 @@ app.get('/', function(req, res) {
                            nombre: record2._fields[0].properties.title
 
                        });
-                    
+                     
                         
                       });
                          //aca mandamos a la vista(index en este caso)          
